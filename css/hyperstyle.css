@@ -1,0 +1,193 @@
+@font-face
+{
+    font-family: supercell;
+    src: url(/BLOG/fonts/supercell.ttf);
+}
+@font-face
+{
+    font-family: super;
+    src: url(/BLOG/fonts/super.ttf);
+}
+@font-face
+{
+    font-family: misco;
+    src: url(/BLOG/fonts/misco.ttf);
+}
+@font-face
+{
+    font-family: tiny;
+    src: url(/BLOG/fonts/tiny.ttf);
+}
+@font-face
+{
+   font-family: moon;
+   src: url(/BLOG/fonts/moon.ttf); 
+}
+@font-face
+{
+    font-family: amatic;
+    src: url(/BLOG/fonts/Amatic.ttf);
+}
+@font-face
+{
+    font-family: brosk;
+    src: url(/BLOG/fonts/brosk.ttf);
+}
+
+
+body
+{
+    background-image: url(/BLOG/images/night.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0 0;
+}
+.header
+{
+    opacity: .9;
+    width: 100%;
+    padding: 30px 0;
+    background: url(/BLOG/images/CYBERPUNK.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 50% 100%, 0% 60%);    
+}
+
+h1
+{
+    font-family: supercell;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.containerbig
+{
+    margin: 50px 50px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-self: center;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.795);
+    border-radius: 10px;
+}
+.content
+{
+    display: grid;
+    color: white;   
+    padding: 20px 50px;
+}
+
+.content h3
+{
+    font-family: super;
+
+}
+
+.content p
+{
+    font-size: 25px;
+    line-height: 30px;
+    font-family: misco;
+}
+
+.footerbig
+{
+    opacity: .95;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer
+{
+    text-align: center;
+    background: #111;
+    height: auto;
+    width: 100%;
+    font-family: tiny;
+    padding-top: 10px;
+    color: #fff;
+}
+
+.footer.content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.footer.content h3
+{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer.content p
+{
+    
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.socials li
+{
+    padding: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+}
+
+.socials img
+{
+    max-width: 100%;
+    width: 100%;
+}
+
+.footer-bottom
+{
+    background: #000;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer-bottom p
+{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span
+{
+    color: #fff;
+    text-transform: uppercase;
+    opacity: .6;
+    font-weight: 200;
+}
